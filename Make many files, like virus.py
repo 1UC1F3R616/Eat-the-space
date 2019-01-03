@@ -1,7 +1,7 @@
 import random
 
 for t in range(5): # Change iterating range to increase number of files maded
-    name=random.randrange(2)
+    name=random.randrange(10000000000000000)
     file=open(str(name)+'.txt','w')
 
     file.write('I am Kushal \n COOL')
